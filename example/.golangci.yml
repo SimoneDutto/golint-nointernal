@@ -1,0 +1,11 @@
+linters-settings:
+  custom:
+    nointernaltypes:
+      path: ../linter.so
+      description: Checks for exported functions using types from internal packages
+      original-url: example.com/custom-linter
+
+linters:
+  disable-all: true
+  enable:
+    - nointernaltypes
